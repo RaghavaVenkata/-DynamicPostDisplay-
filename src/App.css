@@ -1,0 +1,63 @@
+/* App.css */
+/* Import Bootstrap */
+
+/* Color Themes */
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #6c757d; /* Gray */
+    --success-color: #28a745; /* Green */
+    --info-color: #17a2b8; /* Cyan */
+    --warning-color: #ffc107; /* Yellow */
+    --danger-color: #dc3545; /* Red */
+    --light-color: #add8e6; /* Light blue */ /* Update light color to light blue */
+    --dark-color: #343a40; /* Dark gray */
+}
+
+/* Custom Styles */
+/* Center align text */
+.App {
+    text-align: center;
+    background-color: var(--light-color); /* Set background color to light blue */
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Logo styles */
+.App-logo {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Square styles */
+.square {
+    background-color: var(--primary-color);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* Header styles */
+.App-header {
+    background-color: var(--dark-color);
+    padding: 20px;
+    color: white;
+}
+
+/* Link styles */
+.App-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Logo spin animation */
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
